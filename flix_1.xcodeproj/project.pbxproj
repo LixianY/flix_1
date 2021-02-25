@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		080B44CB25E8402D00980055 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080B44CA25E8402D00980055 /* MovieDetailsViewController.swift */; };
 		081E56AA25E16BFC0074E7CA /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 081E56A925E16BFC0074E7CA /* MovieCell.swift */; };
 		08237E5225D98CDA006CA91C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08237E5125D98CDA006CA91C /* AppDelegate.swift */; };
 		08237E5425D98CDA006CA91C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08237E5325D98CDA006CA91C /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		080B44CA25E8402D00980055 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		081E56A925E16BFC0074E7CA /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		08237E4E25D98CDA006CA91C /* flix_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flix_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08237E5125D98CDA006CA91C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				08237E5F25D98CDC006CA91C /* Info.plist */,
 				08237E8725D98FD0006CA91C /* MoviesViewController.swift */,
 				081E56A925E16BFC0074E7CA /* MovieCell.swift */,
+				080B44CA25E8402D00980055 /* MovieDetailsViewController.swift */,
 			);
 			path = flix_1;
 			sourceTree = "<group>";
@@ -210,7 +213,6 @@
 					};
 					08237E6E25D98CDD006CA91C = {
 						CreatedOnToolsVersion = 12.3;
-						TestTargetID = 08237E4D25D98CDA006CA91C;
 					};
 				};
 			};
@@ -269,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				080B44CB25E8402D00980055 /* MovieDetailsViewController.swift in Sources */,
 				08237E5225D98CDA006CA91C /* AppDelegate.swift in Sources */,
 				08237E5425D98CDA006CA91C /* SceneDelegate.swift in Sources */,
 				081E56AA25E16BFC0074E7CA /* MovieCell.swift in Sources */,
@@ -486,7 +489,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JYR2R78358;
 				INFOPLIST_FILE = flix_1Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -507,7 +512,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JYR2R78358;
 				INFOPLIST_FILE = flix_1Tests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -527,7 +534,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JYR2R78358;
 				INFOPLIST_FILE = flix_1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -536,9 +545,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-078485797-qq.com.flix-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = flix_1;
 			};
 			name = Debug;
 		};
@@ -546,7 +555,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JYR2R78358;
 				INFOPLIST_FILE = flix_1UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -555,9 +566,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "-078485797-qq.com.flix-1UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = flix_1;
 			};
 			name = Release;
 		};
